@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title> div background</title>
+        <style>
+            .bluebox{
+                background-image: url(images/download.jpg);
+                background-size: 150% 150%;
+                background-origin: border-box;
+                color : white;
+                height:100px;
+                width:auto;
+                border: #000000 ridge;
+                outline-style:solid;
+                outline-color : palevioletred;
+                outline-width:10px;
+                margin:20px;
+
+            }
+
+            .greenbox{
+                background-image: url(images/images.jpg);
+                color: black;
+                height : 100px;
+                width : auto;
+                border-width: 10px 7px 5px 3px;
+                border-color: black green orange yellow;
+                border-style: ridge;
+
+            }
+
+            .yellowbox{
+                background-color: #ffff80;
+                color: black;
+                height: 100px;
+                width: auto;
+                border-width: 10px 20px;
+                border-collapse: blue green;
+                border-style: ridge;
+                border-radius: 20px;
+
+            }
+
+            p{
+                margin: 0;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class ="bluebox"> 
+           <p> i am in div blue having class bluebox</p>
+        </div>
+
+        <div class ="yellowbox"> 
+               <p> i am in div yello having class yellowbox</p>
+            </div>
+
+            <div class ="greenbox"> 
+                    <p>i am in div green having class greenbox</p>
+                </div>
+    </body>
+</html>
