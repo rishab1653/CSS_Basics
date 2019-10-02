@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title> Div id</title>
+        <style>
+            .bluebox{
+                background-color : #0000ff;
+                color : white;
+                height:100px;
+                width:100px;
+                -webkit-animation: myAnimation 2s;
+
+            }
+
+            @-webkit-keyframes myAnimation{
+                from{background: blue}
+                to{background: red}
+            }
+
+            .greenbox{
+                background-color: #80ff80;
+                color: black;
+                height : 100px;
+                width : 100px;
+                position: relative;
+                -webkit-animation: myAnimation2 3s;
+            }
+            
+            @-webkit-keyframes myANimation2
+            {
+                0%{ background: red ;
+                    left: 0px 
+                    top: 0px
+                };
+            
+
+            25%{ background:green ;
+                    left: 200px ;
+                    top: 0px;
+                 }
+
+            50%{ background:yellow ;
+                    left: 200px ;
+                    top: 200px;
+                }
+
+
+
+            75%{ background:blue ;
+                    left: 0px ;
+                    top: 200px};
+                }
+            100%{ background:green ;
+                    left: 0px ;
+                    top: 0px;
+                }
+            }
+
+            
+
+            .yellowbox{
+                background-color: #ffff80;
+                color: black;
+                height: 100px;
+                width: auto;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class ="bluebox"> 
+            i am in div blue having class bluebox
+        </div>
+
+        <div class ="yellowbox"> 
+                i am in div yello having class yellowbox
+            </div>
+
+            <div class ="greenbox"> 
+                    i am in div green having class greenbox
+                </div>
+    </body>
+</html>
