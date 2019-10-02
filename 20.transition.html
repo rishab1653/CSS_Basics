@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title> TRAnsition</title>
+        <style>
+            .bluebox{
+                background-color : #0000ff;
+                color : white;
+                height:100px;
+                width:auto;
+                transition: width 1s;
+
+            }
+
+            .bluebox:hover{
+                width: 300px;
+            }
+
+            .greenbox{
+                background-color: #80ff80;
+                color: black;
+                height : 100px;
+                width : auto;
+                transition: width 1s,height 1s, transform 1s;
+
+            }
+
+            .greenbox:hover{
+                widows: 300px;
+                height: 300px;
+                transform: rotatex(180deg);
+            }
+
+            .yellowbox{
+                background-color: #ffff80;
+                color: black;
+                height: 100px;
+                width: auto;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class ="bluebox"> 
+            i am in div blue having class bluebox
+        </div>
+
+        <div class ="yellowbox"> 
+                i am in div yello having class yellowbox
+            </div>
+
+            <div class ="greenbox"> 
+                    i am in div green having class greenbox
+                </div>
+    </body>
+</html>
